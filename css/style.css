@@ -1,0 +1,133 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+
+}
+
+/*
+ *
+ * Nav
+ *
+ */
+
+.nav {
+
+}
+
+.navigation {
+
+}
+
+.navigation > .item {
+
+}
+
+.navigation > .item a {
+
+}
+
+/*
+ *
+ * Main
+ *
+ */
+
+.main {
+
+}
+
+/*
+ *
+ * About
+ *
+ */
+
+.about {
+
+}
+
+/*
+ *
+ * Education
+ *
+ */
+
+.education {
+
+}
+
+/*
+ *
+ * Skill
+ *
+ */
+
+.skill {
+
+}
+
+/*
+ *
+ * Workflow
+ *
+ */
+
+.workflow {
+
+}
+
+/*
+ *
+ * Portfolio
+ *
+ */
+
+.portfolio {
+
+}
+
+/*
+ *
+ * Contact
+ *
+ */
+
+.contact {
+
+}
+
+/*
+ *
+ * Findme
+ *
+ */
+
+.findme {
+
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+.footer {
+
+}
