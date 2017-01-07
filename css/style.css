@@ -12,12 +12,57 @@ body, html {
 
 /*
  *
+ * Media queries
+ *
+ */
+
+@media only screen and (max-width: 768px) {
+  /* header */
+
+  /* menu */
+  .menu {
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    padding: 0.4em;
+    background: #323232;
+  }
+
+  .menu > .line {
+
+  }
+
+  /* nav */
+  .nav { display: none; }
+
+  /* about */
+  .about {
+    margin: auto 10px;
+    text-align: center;
+  }
+
+  .about > .details > .profile {
+    width: 100%;
+  }
+
+  /* education */
+
+
+}
+
+/*
+ *
  * Header
  *
  */
 
 .header {
-
+  margin: 0;
+  padding: 1.5em;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 /*
@@ -69,7 +114,22 @@ body, html {
  */
 
 .education {
+  border: 4px solid;
+}
 
+.education * {
+  border: 2px solid red;
+}
+
+.education > .details > .icon {
+  width: 50px;
+  height: 50px;
+  background: url('http://icon-icons.com/icons2/836/PNG/128/WhatsApp_icon-icons.com_66798.png');
+  background-position: center center;
+  background-size: 25px;
+  background-repeat: no-repeat;
+  border: 2px dotted green;
+  border-radius: 50%;
 }
 
 /*
