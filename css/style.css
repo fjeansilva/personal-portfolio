@@ -50,6 +50,8 @@ h2 { font-size: 2.8em; }
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    padding-bottom: 70px;
+    background: #f4f4f4;
   }
 
   .about > .details {
@@ -134,8 +136,8 @@ h2 { font-size: 2.8em; }
  *
  */
 
-.main > * {
-  margin: 10px 0;
+.main {
+
 }
 
 /*
@@ -154,6 +156,10 @@ h2 { font-size: 2.8em; }
  *
  */
 
+.education {
+  padding-bottom: 70px;
+}
+
 .education > .details {
   display: flex;
   flex-flow: row wrap;
@@ -167,13 +173,34 @@ h2 { font-size: 2.8em; }
 .education > .details > .icon {
   width: 50px;
   height: 50px;
-  background: url('http://icon-icons.com/icons2/836/PNG/128/WhatsApp_icon-icons.com_66798.png');
-  background-position: center center;
-  background-size: 25px;
-  background-repeat: no-repeat;
-  border: 2px dotted green;
+  border: 2px dotted #53bed6;
   border-radius: 50%;
   margin: 0 auto;
+}
+
+.education > .details > .icon__book {
+  background: url('http://www.iconsdb.com/icons/preview/caribbean-blue/book-stack-xxl.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+
+.education > .details > .icon__briefcase {
+  background: url('http://www.iconsdb.com/icons/preview/caribbean-blue/briefcase-xxl.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+
+.education > .details > .icon__gift {
+  background: url('http://www.iconsdb.com/icons/preview/caribbean-blue/gift-xxl.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 25px;
+}
+
+.education > .details > .content > h3 {
+  color: #53bed6;
 }
 
 /*
