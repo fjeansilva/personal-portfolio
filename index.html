@@ -2,7 +2,7 @@
 <html lang="pt" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Personal Portfolio</title>
@@ -109,39 +109,55 @@
       </section>
 
       <section class="workflow">
-        <article class="">
+        <article class="flow clients">
           <img src="https://placeimg.com/40/40/tech/sepia" alt="Imagem">
-          <p>25</p>
-          <h3>Lorem</h3>
+          <div class="info">
+            <span>25</span>
+            <span>clients</span>
+          </div>
         </article>
-        <article class="">
+        <article class="flow sup">
           <img src="https://placeimg.com/40/40/tech/sepia" alt="Imagem">
-          <p>25</p>
-          <h3>Lorem</h3>
+          <div class="info">
+            <span>79</span>
+            <span>projects</span>
+          </div>
         </article>
-        <article class="">
+        <article class="flow">
           <img src="https://placeimg.com/40/40/tech/sepia" alt="Imagem">
-          <p>25</p>
-          <h3>Lorem</h3>
+          <div class="info">
+            <span>100%</span>
+            <span>satisfaction</h3>
+          </div>
         </article>
       </section>
 
       <section class="portfolio">
         <h2 class="title">Portfolio</h2>
         <article class="group">
-          <img src="https://placeimg.com/400/350/tech/sepia" alt="Imagem">
-          <img src="https://placeimg.com/400/350/tech/sepia" alt="Imagem">
-          <img src="https://placeimg.com/400/350/tech/sepia" alt="Imagem">
-          <img src="https://placeimg.com/400/350/tech/sepia" alt="Imagem">
-          <img src="https://placeimg.com/400/350/tech/sepia" alt="Imagem">
-          <img src="https://placeimg.com/400/350/tech/sepia" alt="Imagem">
+          <img src="https://placeimg.com/400/400/tech/sepia" alt="Imagem">
+          <img src="https://placeimg.com/400/400/tech/sepia" alt="Imagem">
+          <img src="https://placeimg.com/400/400/tech/sepia" alt="Imagem">
+          <img src="https://placeimg.com/400/400/tech/sepia" alt="Imagem">
+          <img src="https://placeimg.com/400/400/tech/sepia" alt="Imagem">
+          <img src="https://placeimg.com/400/400/tech/sepia" alt="Imagem">
         </article>
       </section>
 
       <section class="contact">
         <h2>Contact Me</h2>
-        <article class="">
-          <h4>form</h4>
+        <article class="form__contact">
+          <form class="form">
+            <label for="">name</label>
+            <input type="text" name="" value="">
+            <label for="">e-mail</label>
+            <input type="text" name="" value="">
+            <label for="">fax</label>
+            <input type="text" name="" value="">
+            <label for="">subject</label>
+            <textarea name="name" rows="8" cols="80"></textarea>
+            <button type="button" name="button">submit</button>
+          </form>
         </article>
       </section>
 
@@ -157,9 +173,9 @@
         <p>
           Lorem Ipsum is simply
         </p>
-        <article class="">
-          <h4>Map</h4>
-        </article>
+        <div id="map">
+          asdf
+        </div>
       </section>
 
     </main>
@@ -168,5 +184,16 @@
         Copyright (c) 2016 Copyright Jean Silva All Rights Reserved.
       </p>
     </footer>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1er_ahGrCBHZymcgcMuqgDRFY32IbOUg&callback=initMap"
+    async defer></script>
   </body>
 </html>

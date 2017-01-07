@@ -114,10 +114,6 @@ body, html {
  *
  */
 
-.education {
-
-}
-
 .education > .details {
   display: flex;
   flex-flow: row wrap;
@@ -163,13 +159,15 @@ body, html {
 
 /*
  *
- * Workflow
+ * Projects
  *
  */
 
-.workflow {
-
-}
+ .workflow {
+   height: 450px;
+   display: flex;
+   background: #00bfff;
+ }
 
 /*
  *
@@ -192,8 +190,8 @@ body, html {
 }
 
 .portfolio > .group > img {
-  max-width: 40%;
-  max-height: 40%;
+  width: 40%;
+  height: 40%;
   margin: 20px;
 }
 
@@ -207,6 +205,10 @@ body, html {
 
 }
 
+.contact form textarea {
+  width: 80%;
+}
+
 /*
  *
  * Findme
@@ -214,7 +216,14 @@ body, html {
  */
 
 .findme {
+  height: 600px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+}
 
+.findme > #map {
+  flex-grow: 1;
 }
 
 /*
@@ -224,7 +233,7 @@ body, html {
  */
 
 .footer {
-
+  text-align: center;
 }
 
 /*
