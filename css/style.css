@@ -181,6 +181,22 @@ body, html {
 
 }
 
+.portfolio > .title {
+  text-align: center;
+}
+
+.portfolio > .group {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.portfolio > .group > img {
+  max-width: 40%;
+  max-height: 40%;
+  margin: 20px;
+}
+
 /*
  *
  * Contact
