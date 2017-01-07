@@ -156,6 +156,10 @@ body, html {
   text-align: center;
 }
 
+.skill > .item {
+  margin: 1.4em;
+}
+
 /*
  *
  * Workflow
