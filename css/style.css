@@ -93,8 +93,9 @@ body, html {
  *
  */
 
-.main {
-
+.main > * {
+  border: 2px solid red;
+  margin: 10px 0;
 }
 
 /*
@@ -114,11 +115,17 @@ body, html {
  */
 
 .education {
-  border: 4px solid;
+
 }
 
-.education * {
-  border: 2px solid red;
+.education > .details {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.education > .details > .content {
+  max-width: 75%;
 }
 
 .education > .details > .icon {
@@ -130,6 +137,7 @@ body, html {
   background-repeat: no-repeat;
   border: 2px dotted green;
   border-radius: 50%;
+  margin: 0 auto;
 }
 
 /*
@@ -139,7 +147,13 @@ body, html {
  */
 
 .skill {
+  display: flex;
+  flex-flow: row wrap;
+}
 
+.skill > .title {
+  width: 100%;
+  text-align: center;
 }
 
 /*
@@ -190,4 +204,18 @@ body, html {
 
 .footer {
 
+}
+
+/*
+ *
+ * Utilities
+ *
+ */
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
