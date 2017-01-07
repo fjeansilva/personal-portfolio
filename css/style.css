@@ -149,6 +149,7 @@ body, html {
 .skill {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 .skill > .title {
