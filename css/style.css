@@ -249,15 +249,91 @@ h2 { font-size: 2.8em; }
 
 /*
  *
- * Projects
+ * Workflow
  *
  */
 
  .workflow {
-   height: 450px;
-   display: flex;
-   background: #00bfff;
- }
+  height: 500px;
+  padding: 20px;
+  display: flex;
+  background: #53bed6;
+}
+
+.workflow > .container {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.workflow > .container  .work {
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.workflow > .container > .flow {
+  margin: 3px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.workflow > .container > .flow_middle {
+  margin: 3px;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.workflow > .container > .flow > .item {
+  width: 100%;
+  height: 100px;
+  margin: 2px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.workflow > .container > .flow > .item span {
+  display: block;
+  color: #fff;
+}
+
+.workflow > .container > .flow_middle > .sup {
+  width: 100%;
+  margin: 2px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.workflow > .container > .flow_middle > .sup span {
+  display: block;
+  color: #fff;
+}
+
+.workflow > .container > .flow_middle > .sup {
+  align-self: flex-start;
+}
+
+.workflow .icon {
+  width: 50px;
+  height: 50px;
+  border: 2px dotted #53bed6;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.workflow .icon__book {
+  background: #fff;
+}
 
 /*
  *
@@ -266,7 +342,9 @@ h2 { font-size: 2.8em; }
  */
 
 .portfolio {
-
+  background: #333;
+  color: #fff;
+  padding: 30px 0;
 }
 
 .portfolio > .title {
@@ -280,9 +358,9 @@ h2 { font-size: 2.8em; }
 }
 
 .portfolio > .group > img {
-  width: 40%;
+  width: 45%;
   height: 40%;
-  margin: 20px;
+  margin: 2px;
 }
 
 /*
