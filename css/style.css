@@ -370,12 +370,41 @@ h2 { font-size: 2.8em; }
  */
 
 .contact {
+  padding: 20px;
+}
 
+.contact > h2 {
+  text-align: center;
+}
+
+.contact label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.contact form > input {
+  width: 100%;
+  height: 60px;
+  padding-left: 20px;
 }
 
 .contact form textarea {
-  width: 80%;
+  width: 100%;
+  resize: none;
 }
+
+.contact form > button {
+  width: 120px;
+  height: 45px;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  text-transform: uppercase;
+  background: #53bed6;
+  color: #fff;
+}
+
 
 /*
  *
