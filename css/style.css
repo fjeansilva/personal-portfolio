@@ -103,6 +103,13 @@ h2 { font-size: 2.8em; }
     background: #53bed6;
     color: #fff;
   }
+
+  /* find me */
+  .findme {
+    padding: 50px 15px 0 15px;
+    flex-flow: column wrap;
+    align-content: space-between;
+  }
 }
 
 /* laptop, notebook and desktop */
@@ -256,6 +263,19 @@ h2 { font-size: 2.8em; }
     background: #53bed6;
     color: #fff;
     align-self: flex-end;
+  }
+
+  /* find me */
+  .findme {
+    flex-flow: row wrap;
+  }
+
+  .findme > div {
+    width: 50%;
+  }
+
+  .findme > div.box {
+    padding: 170px 15px 30px 45px;
   }
 }
 
@@ -551,17 +571,15 @@ h2 { font-size: 2.8em; }
 .findme {
   height: 800px;
   background: #f4f4f4;
-  padding: 50px 15px 0 15px;
   display: flex;
-  flex-flow: column wrap;
-  align-content: space-between;
 }
 
 .findme h2, .findme h4 {
   margin: 15px 0;
 }
 
-.findme > i {
+.findme > div.box i {
+  display: block;
   width: 100px;
   height: 100px;
   background: url('http://www.iconsdb.com/icons/preview/caribbean-blue/pin-9-xxl.png');
