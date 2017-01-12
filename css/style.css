@@ -17,63 +17,63 @@ h1 { font-size: 4em; }
 h2 { font-size: 2.8em; }
 
 /*
- *
- * Media queries
- *
- */
+*
+* Media queries
+*
+*/
 
- /* smartphones and tablets */
- @media only screen and (max-width: 768px) {
-   /* header */
+/* smartphones and tablets */
+@media only screen and (max-width: 768px) {
+  /* header */
 
-   /* menu */
-   .menu {
-     width: 40px;
-     height: 40px;
-     padding: 0.4em;
-     border: 2px solid #fff;
-     border-radius: 3px;
-     background: #f6608a;
-   }
+  /* menu */
+  .menu {
+    width: 40px;
+    height: 40px;
+    padding: 0.4em;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    background: #f6608a;
+  }
 
-   .menu > .line {
-     display: block;
-     height: 2px;
-     margin-top: 5px;
-     background: #fff;
-   }
+  .menu > .line {
+    display: block;
+    height: 2px;
+    margin-top: 5px;
+    background: #fff;
+  }
 
-   .header { justify-content: center; }
+  .header { justify-content: center; }
 
-   .header > .title { font-size: 4em; }
+  .header > .title { font-size: 4em; }
 
-   /* nav */
-   .nav { display: none; }
+  /* nav */
+  .nav { display: none; }
 
-   /* about */
-   .about {  }
+  /* about */
+  .about {  }
 
-   .about > .details {
-     width: 95%;
-   }
+  .about > .details {
+    width: 95%;
+  }
 
-   .about > .details > .details__info { padding: 20px; }
+  .about > .details > .details__info { padding: 20px; }
 
-   .about > .details > .profile {
-     width: 100%;
-   }
+  .about > .details > .profile {
+    width: 100%;
+  }
 
-   /* education */
-   .education > .details {
-     display: flex;
-     flex-flow: row wrap;
-     justify-content: flex-start;
-     padding: 20px;
-   }
- }
+  /* education */
+  .education > .details {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+}
 
- /* laptop, notebook and desktop */
- @media only screen and (min-width: 769px) {
+/* laptop, notebook and desktop */
+@media only screen and (min-width: 769px) {
 
   /* header */
   .header { min-height: 730px; justify-content: flex-start; align-items: center; }
@@ -162,21 +162,32 @@ h2 { font-size: 2.8em; }
     padding: 0 45% 0 10%;
   }
 
-  .education .line {
-    width: 2px;
-    height: 158px;
-    background: #53bed6;
-    margin-top: 50px;
-    margin-left: 39.3%;
+  .education > .first__line {
+    width: 1px;
+    height: 122px;
     position: absolute;
+    top: 1649px;
+    display: initial;
+    background: #53bed6;
+    left: 49.4%;
+  }
+
+  .education > .second__line {
+    width: 1px;
+    height: 122px;
+    position: absolute;
+    top: 1821px;
+    display: initial;
+    background: #53bed6;
+    left: 49.4%;
   }
 }
 
 /*
- *
- * Header
- *
- */
+*
+* Header
+*
+*/
 
 .header {
   margin: 0;
@@ -212,29 +223,29 @@ h2 { font-size: 2.8em; }
 }
 
 /*
- *
- * About
- *
- */
+*
+* About
+*
+*/
 
- .about {
-   display: flex;
-   flex-flow: column wrap;
-   align-items: center;
-   padding-bottom: 70px;
-   background: #f4f4f4;
- }
+.about {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding-bottom: 70px;
+  background: #f4f4f4;
+}
 
- .about > .details {
-   background: #53bed6;
-   color: #fff;
- }
+.about > .details {
+  background: #53bed6;
+  color: #fff;
+}
 
 /*
- *
- * Education
- *
- */
+*
+* Education
+*
+*/
 
 .education {
   padding-bottom: 70px;
@@ -278,10 +289,10 @@ h2 { font-size: 2.8em; }
 }
 
 /*
- *
- * Skill
- *
- */
+*
+* Skill
+*
+*/
 
 .skill {
   background: #333;
@@ -321,12 +332,12 @@ h2 { font-size: 2.8em; }
 }
 
 /*
- *
- * Workflow
- *
- */
+*
+* Workflow
+*
+*/
 
- .workflow {
+.workflow {
   height: 500px;
   padding: 20px;
   display: flex;
@@ -409,10 +420,10 @@ h2 { font-size: 2.8em; }
 }
 
 /*
- *
- * Portfolio
- *
- */
+*
+* Portfolio
+*
+*/
 
 .portfolio {
   background: #333;
@@ -437,10 +448,10 @@ h2 { font-size: 2.8em; }
 }
 
 /*
- *
- * Contact
- *
- */
+*
+* Contact
+*
+*/
 
 .contact {
   padding: 20px;
@@ -479,10 +490,10 @@ h2 { font-size: 2.8em; }
 }
 
 /*
- *
- * Findme
- *
- */
+*
+* Findme
+*
+*/
 
 .findme {
   height: 800px;
@@ -510,10 +521,10 @@ h2 { font-size: 2.8em; }
 }
 
 /*
- *
- * Footer
- *
- */
+*
+* Footer
+*
+*/
 
 .footer {
   background: #53bed6;
@@ -527,10 +538,10 @@ h2 { font-size: 2.8em; }
 }
 
 /*
- *
- * Utilities
- *
- */
+*
+* Utilities
+*
+*/
 
 .text-center {
   text-align: center;
